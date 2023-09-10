@@ -36,6 +36,7 @@ let displayWeather = () => {
             <img src="./assests/images/rain.png" class="weather-icon" alt="">
             <h1 class="temp">${data.main.temp}°C</h1>
             <h2 class="city">${data.name}</h2>
+            <h3>${data.weather[0].description}</h3>
             <div class="details">
                 <div class="col">
                     <img src="./assests/images/humidity.png" alt="">
